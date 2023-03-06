@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(images/bg-header-desktop.png);
+    background-image: url(bg-header-desktop.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top 0%;
