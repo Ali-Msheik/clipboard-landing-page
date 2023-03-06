@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top 0%;
+    background-color: white;
+    height: auto;
+    width: auto;
+}
+header{
+    margin-left: 28%;
+}
+.header-logo img {
+    width: 80px;
+    margin-left: 240px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.header-heading-one h2{
+    margin-left: 53px;
+}
+.header-paragraph-one p{
+    font-size: 14px;
+    margin-left: 49px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: hsl(201, 11%, 66%);
+}
+.header-paragraph-one span{
+    margin-left: 100px;
+}
+.header-paragraph-two span{
+    margin-left: 165px;
+}
+.header-buttons{
+    margin-left: 113px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.header-buttons .button1{
+    margin-right: 5px;
+}
+.header-heading-two h4{
+    margin-left: 127px;
+}
+.header-paragraph-two{
+    margin-left: 49px;
+    font-size: 12.5px;
+    margin-top: 16px;
+    color: hsl(201, 11%, 66%);
+}
+section{
+    margin-top: 60px;
+}
+.part-one > img{
+    width: 590px;
+    margin-right: 85px;
+}
+.part-one{
+    display: flex;
+}
+aside{
+    margin-top: 80px;
+}
+.aside1 > p ,
+.aside2 > p ,
+.aside3 > p {
+    color:hsl(201, 11%, 66%);
+}
+.part-two{
+    margin-top: 80px;
+}
+.part-two img {
+    width: 735px;
+    margin-top: 95px;
+    margin-left: 245px;
+}
+.heading-part-two{
+    margin-left: 70px;
+}
+.heading-part-two h4{
+    margin-bottom: 20px;
+    margin-left: 365px;
+    font-size: 35px;
+}
+.heading-part-two p{
+ margin-left: 280px;
+ margin-bottom: 4px;
+ color:hsl(201, 11%, 66%);
+}
+.heading-part-two span{
+    margin-left: 475px;
+    color:hsl(201, 11%, 66%);
+}
+.footer-part-two h4{
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-left: 430px;
+}
+.footer-part-two p{
+    margin-left: 453px;
+    font-size: 18.6px;
+    color:hsl(201, 11%, 66%);
+}
+.part-three{
+    margin-top: 70px;
+}
+.part-three-row-one{
+    display: flex;
+    justify-content: space-between;
+}
+.part-three-icon-one{
+    margin-left: 150px;
+}
+.part-three-icon-two{
+    margin: auto;
+}
+.part-three-icon-three{
+    margin-right: 150px;
+}
+.part-three-row-text{
+    display: flex;
+    justify-content: space-between;
+}
+.part-three-icon-one img,
+.part-three-icon-two img{
+    margin-left: 55px;
+    padding: 20px;
+}
+.part-three-icon-three img{
+    padding: 20px;
+    margin-left:35px ;
+}
+.para1,
+.para2,
+.para3{
+    font-size: 15px;
+    color:hsl(201, 11%, 66%);
+}
+.para1{
+    margin-left: 100px;
+   margin-top: 1px;
+}
+.para3{
+    margin-right: 80px;
+}
+.para1 span ,
+.para2 span , 
+.para3 span {
+    margin-left: 35%;
+}
+.part-three-row-two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 86%;
+    margin-left: 8%;
+}
+.part-four{
+  margin-top: 70px;
+}
+.part-four h2{
+    margin-left: 380px;
+    word-spacing: 3px;
+}
+.part-four p{
+    margin-left: 300px;
+    margin-top: 15px;
+    color:hsl(201, 11%, 66%);
+}
+.part-four p span{
+    margin-left: 122px;
+    word-spacing: 2px;
+    margin-top: 3px;
+}
+.part-four-buttons {
+    margin-left: 32%;
+    margin-top: 50px;
+}
+.part-four-buttons .button1,
+.part-four-buttons .button2{
+    width: 24%;
+}
+.part-four-buttons .button1{
+    margin-right: 5px;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    margin-top: 180px;
+    height: 155px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-around;
+}
+ .footer-text {
+    position: relative;
+    display: flex;
+    margin-top: 3%;
+    margin-right: 130px;
+    cursor: pointer;
+}
+ footer > img {
+    width: 70px;
+    height: 70px;
+    margin-top: 3%;
+    margin-left: 60px;
+}   
+.text1,
+.text2,
+.text3{
+margin-right: 80px;
+}
+.footer-icons{
+    margin-top: 3%;
+    cursor: pointer;
+}
+.footer-icons img{
+    padding-right: 22px;
+}
+.text1{
+    margin-right: 120px;
+}
+.text2{
+    margin-right: 100px;
+}
+.footer-text :hover{
+    color:green
+}
+.footer-icons img:hover{
+    filter:  brightness(150%);
+}
